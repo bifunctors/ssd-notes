@@ -8,21 +8,22 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Notes',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Spec Reference', link: '/spec-reference' },
+          { text: 'SSD AS', link: '/ssd-as' },
+          { text: 'SSD A2', link: '/ssd-a2' },
+          { text: 'DT GCSE', link: '/spec-reference' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/bifunctors/ssd-notes' }
     ]
   }
 })

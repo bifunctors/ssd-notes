@@ -1,25 +1,26 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "ssd-notes"
   text: "Software Systems Development Notes"
-  tagline: My great project tagline
+  tagline: Great SSD notes
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Spec Reference
+      link: /spec-reference
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: SSD
+      link: /ssd-as
+    - theme: alt
+      text: Digital Tech
+      link: /dt-gcse
 
 features:
-  - title: Feature A
+  - title: Created By Teachers and Students
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Masters At Yap
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Probably some A*s
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
